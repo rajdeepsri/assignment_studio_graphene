@@ -1,0 +1,169 @@
+.container {
+    background-color: white;
+    color: black;
+    margin: 4rem 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    position: relative;
+}
+
+.header_title_div h1 {
+    font-size: 90px;
+    font-weight: 600;
+    font-family: "Syne";
+}
+
+.line {
+    border: 1px solid black;
+}
+
+.starIcon {
+    position: absolute;
+    bottom: -0.6rem;
+    left: 4rem;
+}
+
+.arrows_btn_div {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.arrows_btn_div img {
+    cursor: pointer;
+}
+
+.lower_div {
+    display: flex;
+    padding-left: 5rem;
+    margin: 3rem 0;
+    gap: 9rem;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 18px;
+    font-family: "Work Sans";
+    list-style: none;
+}
+
+.accesory {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Syne";
+}
+
+.cards_div {
+    display: flex;
+    gap: 2rem;
+    overflow-x: hidden;
+}
+
+.card {
+    min-width: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 0.5rem;
+    height: fit-content;
+}
+
+.img_div {
+    width: 310px;
+    position: relative;
+}
+
+.product_img {
+    width: 100%;
+}
+
+.arrow {
+    background-color: black;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.desc_div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.product_title {
+    font-family: "Syne";
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.desc {
+    font-family: "Work Sans";
+    font-size: 14px;
+    color: #16161580;
+}
+
+.price {
+    font-family: "Syne";
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+}
+
+@media screen and (max-width:450px) {
+    .header_title_div h1 {
+        font-size: 40px;
+    }
+
+    .header {
+        padding: 0 2rem;
+    }
+
+    .line {
+        width: 23.5rem;
+    }
+
+    .starIcon {
+        left: 1rem;
+    }
+
+    .lower_div {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin: 0.5rem 0;
+        gap: 2.5rem;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        font-size: 14px;
+    }
+
+    .accesory {
+        font-size: 18px;
+    }
+
+    .cards_div {
+        padding-left: 1rem;
+    }
+
+    .arrows_btn_div {
+        position: absolute;
+        top: 60rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}

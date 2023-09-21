@@ -1,0 +1,49 @@
+.container {
+    font-family: 'Poppins', sans-serif;
+    height: 42px;
+    background-color: #1A1A1A;
+    color: #626262;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.left_div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    height: 13px;
+}
+
+.right_div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.right_div img {
+    cursor: pointer;
+}
+
+.follow_us {
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        padding: 0 1rem;
+        font-size: 10px;
+    }
+
+    .follow_us {
+        display: none;
+    }
+
+    .left_div {
+        gap: 0.35rem;
+    }
+}
