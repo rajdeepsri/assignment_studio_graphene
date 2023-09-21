@@ -79,7 +79,7 @@
     font-size: 18px;
     font-weight: 500;
     font-family: "Work Sans";
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -122,5 +122,9 @@
 
     .hamburger {
         display: block;
+    }
+
+    .responsive_nav {
+        display: flex;
     }
 }
